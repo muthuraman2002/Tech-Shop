@@ -11,6 +11,8 @@ const CartItem: React.FC<CartItemProps> = ({ item }) => {
   const { updateQuantity, removeFromCart } = useCart();
   const { product, quantity } = item;
 
+  
+
   return (
     <div className="flex items-center py-4 border-b border-gray-200">
       <div className="h-20 w-20 flex-shrink-0 overflow-hidden rounded-md">
